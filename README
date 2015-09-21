@@ -5,7 +5,7 @@
 //
 //  License: This source code is distributed under the zlib/libpng license.
 //
-//  ACLK = LFXT1 = 32768Hz, MCLK = SMCLK = 1 MHz.
+//  ACLK = LFXT1 = 32768Hz, MCLK = SMCLK = 16 MHz.
 //
 //                MSP430G2553
 //             -----------------
