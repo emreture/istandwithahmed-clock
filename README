@@ -1,0 +1,26 @@
+//******************************************************************************
+//  Simple digital clock
+//
+//  Description: Support #IStandWithAhmed and demonstrate the PCD8544 library.
+//
+//  License: This source code is distributed under the zlib/libpng license.
+//
+//  ACLK = LFXT1 = 32768Hz, MCLK = SMCLK = 1 MHz.
+//
+//                MSP430G2553
+//             -----------------
+//         /|\|              XIN|-
+//          | |                 | 32kHz
+//          --|RST          XOUT|-
+//            |                 |
+//    SCLCK<--|P1.5         P2.0|-->D/C
+//            |                 |
+//     SDIN<--|P1.7         P2.1|-->SCE
+//            |                 |
+//            |             P2.2|-->RES
+//
+//  M. Emre TÜRE
+//  emreture.net
+//  September 2015
+//  Built with CCS Version 5.5.0
+//******************************************************************************
